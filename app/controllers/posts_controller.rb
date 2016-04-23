@@ -1,6 +1,6 @@
 class PostsController < ApplicationController
   
-  before_action :find_posts, only: [:show,:edit,:update,:destroy]
+  before_action :find_post, only: [:show,:edit,:update,:destroy]
   
   
   def index
@@ -29,7 +29,7 @@ class PostsController < ApplicationController
   end
 
   def update
-    if @post.update(update_params)
+    if @post.update(post_params)
       redirect_to @post
     else
       render 'edit'
