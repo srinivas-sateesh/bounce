@@ -1,3 +1,13 @@
+#intro {
+	margin: 2.75rem 0 1.75rem 0;
+	text-align: center;
+	font-size: 1.75rem;
+	line-height: 1;
+	span {
+		font-size: 1.25rem;
+		color: #9B9B9B;
+	}
+}
 #posts {
 	.post {
 		background: #F8F9FA;
@@ -24,6 +34,9 @@
 				a {
 					text-decoration: none;
 					color: #333233;
+					&:hover {
+						color: #50A7C7;
+					}
 				}
 			}
 			.data {
