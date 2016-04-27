@@ -26,6 +26,8 @@ gem 'haml'
 
 gem 'simple_form'
 
+gem 'acts_as_votable' 
+
 gem 'devise'
 
 gem 'paperclip'
